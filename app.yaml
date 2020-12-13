@@ -4,7 +4,7 @@ threadsafe: yes
 
 handlers:
 - url: /(message|promo|migrate|mass|verify)
-  script: biblegatewaybot.app
+  script: bollsbiblebot.app
   login: admin
 
 - url: /favicon.ico
@@ -16,7 +16,7 @@ handlers:
   upload: thumb.jpg
 
 - url: .*
-  script: biblegatewaybot.app
+  script: bollsbiblebot.app
 
 libraries:
 - name: webapp2
